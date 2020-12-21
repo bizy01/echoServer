@@ -6,6 +6,7 @@ import (
 	"path/filepath"
 )
 
+// https://www.cnblogs.com/CraryPrimitiveMan/p/7928647.html
 const simpleCfg  = `
 [echoServer]
 [[httpServer]]

@@ -5,7 +5,6 @@ linux的echo就是一个简单的回声命令，该项目实现一个server的�
 ### Feature
 支持以下功能
 - http echo
-- grpc echo
 - mock data
 
 ### 使用说明
@@ -13,13 +12,7 @@ echoServer -c config.yaml
 
 ```
 [echoServer]
-[[echoServer.httpServer]]
+[[httpServer]]
    bind = 0.0.0.0
    port = 9090
-   mock = false
-
-[[echoServer.grpcServer]]
-   bind = 0.0.0.0
-   port = 9091
-   mock = true
 ```
