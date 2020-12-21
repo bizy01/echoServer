@@ -5,7 +5,8 @@ linux的echo就是一个简单的回声命令，该项目实现一个server的�
 ### Feature
 支持以下功能
 - http echo
-- mock data
+- grpc echo (todo)
+- mock data (todo)
 
 ### 使用说明
 echoServer -c config.yaml
